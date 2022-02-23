@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0%;
+  background: #eee5e9;
+}
+
+.name {
+  width: 100%;
+  height: 300px;
+  background: #d4b3ff;
+  transform: skewY(7.5deg);
+  border-style: solid;
+  border-color: #747578;
+}
+
+.name .content {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 25%;
+  top: 25%;
+}
+
+.name .content .p1 {
+  color: #191919;
+  font-family: "Gideon Roman", cursive;
+  font-weight: bolder;
+  font-size: x-large;
+  transform: skewY(-7.5deg);
+  margin-bottom: 0%;
+}
+
+.name .content .p2 {
+  color: #191919;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  transform: skewY(-7.5deg);
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.name .img {
+  position: absolute;
+  top: 8%;
+  right: 5%;
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  transform: skewY(-7.5deg);
+  overflow: hidden;
+}
+
+/* .name .img img {
+  width: 180px;
+  height: 320px;
+} */
+/* dividir el tamaño de la imagen en 2  */
+.Botones {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  color: #c293ff;
+}
+.info {
+  width: 90%;
+  height: auto;
+  background: #d4b3ff;
+  margin: 8% auto;
+  margin-bottom: 0%;
+  padding: 5px;
+  border-style: double;
+  border-radius: 20px;
+  border-color: #747578;
+}
+
+.info .Tituloseccion {
+  color: #191919;
+  font-family: "Gideon Roman", cursive;
+  font-size: xx-large;
+  text-align: center;
+  font-weight: bolder;
+  border-bottom: 2px #191919 solid;
+}
+
+.info .tituloinfo {
+  color: #191919;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: large;
+  display: inline;
+  margin-right: 2px;
+}
+
+.info .informacion {
+  color: #191919;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: large;
+  display: inline;
+}
+
+.info.Boton {
+  position: absolute;
+  align-self: center;
+  justify-self: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  color: #c293ff;
+}

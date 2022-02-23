@@ -1,0 +1,44 @@
+<html>
+
+<head>
+  <link href="css/PreLoading.css" rel="stylesheet">
+</head>
+
+<body>
+  <title> Loading...</title>
+  <div class="loader">
+    <div class="inner">
+    </div>
+  </div>
+  <div class="Loading">
+    <h1> Loading...</h1>
+  </div>
+
+  <script>
+    var timer = setTimeout(() => {
+      window.location = "main.html";
+    }, 3000);
+  </script>
+
+  <style>
+    body {
+      font-family: monospace;
+      justify-items: center;
+      align-items: baseline;
+      display: grid;
+    }
+
+    #Loading {
+      width: 40%;
+      height: 30%;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+    }
+  </style>
+
+</body>
+
+
+
+</html>

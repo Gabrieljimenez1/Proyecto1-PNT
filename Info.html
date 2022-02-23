@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Gabbo Jimenez Page</title>
+  <link rel="stylesheet" href="css/info.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Source+Sans+Pro:wght@200&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="Botones">
+    <form id="botones">
+      <input id="Boton1" type="button" value="Logout">
+    </form>
+  </div>
+
+
+  <div class="name">
+    <div class="img">
+      <img src="images/Tony.jpg" alt="">
+    </div>
+    <div class="content">
+      <p class="p1">RESUME</p>
+      <p class="p2">Gabriel David Jimenez Mosquera</p>
+    </div>
+  </div>
+
+  <div class="info">
+    <p class="Tituloseccion">Personal Information </p>
+    <p class="tituloinfo">Complete Name:</p>
+    <p class="informacion">Gabriel David Jimenez Mosquera</p>
+    <br>
+    <p class="tituloinfo">Age:</p>
+    <p class="informacion">18 years old</p>
+    <br>
+    <p class="tituloinfo">Contact:</p>
+    <p class="informacion">gabrieljimo@unisabana.edu.co</p>
+  </div>
+
+  <div class="info">
+    <p class="Tituloseccion">Degree</p>
+    <p class="tituloinfo">Current Studies:</p>
+    <p class="informacion">Informatic Engineering</p>
+    <br>
+  </div>
+
+  <div class="info">
+    <p class="Tituloseccion">Lenguages</p>
+    <p class="tituloinfo">Current Lenguages:</p>
+    <br>
+    <p class="tituloinfo">Java</p>
+    <br>
+    <p class="tituloinfo">Python</p>
+    <br>
+    <p class="tituloinfo">C++</p>
+    <br>
+  </div>
+
+  <div class="info">
+    <p class="Tituloseccion">Experiences</p>
+    <br>
+    <p class="tituloinfo">Self Work:</p>
+    <br>
+    <p class="informacion">Created a game in Unity</p>
+    <br>
+  </div>
+
+  <div class="info">
+    <p class="Tituloseccion">Skills</p>
+    <p class="tituloinfo">Creativite</p>
+    <br>
+    <p class="tituloinfo">Self learning</p>
+    <br>
+    <p class="tituloinfo">Leardership</p>
+    <br>
+    <p class="tituloinfo">Teamwork</p>
+    <br>
+  </div>
+
+  <div class="info">
+    <p class="Tituloseccion">Blog</p>
+    <div class="Boton">
+      <button name="boton2" id="boton2">Blog</button>
+    </div>
+  </div>
+
+</body>
+
+<script>
+  const LogoutButton = document.getElementById("Boton1");
+  LogoutButton.addEventListener("click", (e) => {
+    e.preventDefault();
+    window.location.href = "loading2.html";
+  })
+
+  var btn = document.getElementById('boton2');
+
+  function IrABlog() {
+    window.location.href = "loading3.html";
+  }
+  btn.addEventListener('click', IrABlog, true);
+
+</script>
+
+<style>
+  body {
+    justify-items: center;
+    align-items: center;
+    display: grid;
+  }
+
+  #boton2 {
+    border-radius: 25%;
+    color: #000000;
+    background-color: #ffffff;
+  }
+
+  #Boton1 {
+    border-radius: 25%;
+    color: #ffffff;
+    background-color: #c293ff;
+  }
+</style>
+
+</html>
