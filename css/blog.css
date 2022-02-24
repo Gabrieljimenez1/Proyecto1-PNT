@@ -157,14 +157,3 @@ body {
   font-size: large;
   display: inline;
 }
-
-.info2 .img {
-  position: absolute;
-  top: 100%;
-  right: 38.5%;
-  width: 376px;
-  height: 200px;
-  background-color: #c293ff;
-  border-style: double;
-  border-color: #191919;
-}
