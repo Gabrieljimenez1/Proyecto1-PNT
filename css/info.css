@@ -44,17 +44,17 @@ body {
   position: absolute;
   top: 8%;
   right: 5%;
-  width: 180px;
-  height: 180px;
-  border-radius: 100%;
+  width: 210px;
+  height: 210px;
+  border-radius: 90%;
   transform: skewY(-7.5deg);
   overflow: hidden;
 }
 
-/* .name .img img {
-  width: 180px;
-  height: 320px;
-} */
+.name .img img {
+  width: 162px;
+  height: 370px;
+}
 /* dividir el tamaño de la imagen en 2  */
 .Botones {
   position: absolute;
@@ -105,8 +105,8 @@ body {
 
 .info.Boton {
   position: absolute;
-  align-self: center;
-  justify-self: center;
+  right: 50%;
+  top: 100%;
   width: 15px;
   height: 15px;
   border-radius: 100%;

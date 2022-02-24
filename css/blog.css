@@ -95,6 +95,21 @@ body {
   border-color: #747578;
 }
 
+.info3 {
+  font-family: "Source Sans Pro", sans-serif;
+  width: 70%;
+  position: relative;
+  left: -13%;
+  height: auto;
+  background: #d4b3ff;
+  margin: 8% auto;
+  margin-bottom: 0%;
+  padding: 5px;
+  border-style: double;
+  border-radius: 20px;
+  border-color: #747578;
+}
+
 .info .img {
   position: absolute;
   top: 40%;
@@ -156,4 +171,52 @@ body {
   font-weight: bold;
   font-size: large;
   display: inline;
+}
+
+.info2 .img {
+  position: absolute;
+  top: 20%;
+  right: 105%;
+  width: 276px;
+  height: 200px;
+  background-color: #c293ff;
+  border-style: double;
+  border-color: #191919;
+}
+
+.info3 .Tituloseccion {
+  color: #191919;
+  font-family: "Gideon Roman", cursive;
+  font-size: xx-large;
+  text-align: center;
+  font-weight: bolder;
+  border-bottom: 2px #191919 solid;
+}
+
+.info3 .tituloinfo {
+  color: #191919;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: large;
+  display: inline;
+  margin-right: 2px;
+}
+
+.info3 .informacion {
+  color: #191919;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: large;
+  display: inline;
+}
+
+.info3 .img {
+  position: absolute;
+  top: 40%;
+  right: -35%;
+  width: 301px;
+  height: 170px;
+  background-color: #c293ff;
+  border-style: double;
+  border-color: #191919;
 }
